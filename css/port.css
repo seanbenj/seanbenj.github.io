@@ -1,0 +1,174 @@
+
+body {
+	background: url(../images/passage.jpg) no-repeat;
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	width: 100%;
+	display: block;
+	height: auto;
+	padding-top: 200px;
+	padding-bottom: 500px;
+	color: #fff;
+}
+.modal-body {
+	background-color: rgba(87, 142, 72, 0.9);
+	box-shadow: 2px 2px 10px 0 rgba(0,0,0,0.5);
+	border-radius: 15%;
+}
+
+#projects col {
+	max-width: 200px;
+}
+
+.btn-secondary {
+	border-radius: 15%;
+	color:#e1efe8;
+	background-color: #8dc6ab;
+}
+
+.btn-secondary:hover {
+	background-color: rgba(194, 239, 226, 0.8);
+	color: #f4fcf9;
+}
+
+.jumbotron {
+	background-color: rgba(107, 137, 88, 0.9);
+	box-shadow: 2px 2px 10px 0 rgba(0,0,0,0.5);
+	text-align: center;
+	font-weight: 500;
+	overflow: hidden;
+}
+
+.jumbotron li{
+	float: left;
+}
+
+.lidetails {
+	list-style: none;
+}
+
+.container img {
+	border: 3px double green;
+	border-radius: 3px;
+	box-shadow: 2px 2px 10px 0 rgba(0,0,0,0.5);
+}
+
+
+/* --------------------------e----------------------------------
+	Rollover Menu
+------------------------------------------------------------*/ 
+.wrap {
+	top: 0;
+	left: 0;
+	height: auto;
+	width: 100%;
+}
+
+.menu-container {
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: rgba(72, 75, 76, .08);
+	z-index: 100;
+	position: fixed;
+	text-align: center;
+}
+
+.menu {
+	font: bold 12px/18px monospace;
+	text-align: center;
+	display: inline;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
+.menu li {
+	color: #e1efe8;
+	display: inline-block;
+	margin-right: 0% auto;
+	position: relative;
+	padding: 12px 40px;
+	border: 1px solid #abb2af;
+	border-radius: 2px;
+	background-color: #8dc6ab;
+	cursor: pointer;
+	transition-property: background;
+	transition-duration: .4s;
+	transition-delay: 0s;
+	transition-timing-function: ease-in-out:
+}
+
+.menu li:hover {
+	background-color: rgba(194, 239, 226, 0.8);
+	color: #f4fcf9;
+}
+
+.menu li:hover ul{
+	display: block;
+	opacity: 1;
+	visibility: visible;
+}
+
+.submenu {
+	list-style: none;
+	text-decoration: none;
+	padding: 0;
+	left: 0;
+	position: absolute;
+	top: 43.5px;
+	width: 112px;
+	opacity: 0;
+	visibility: hidden;
+}
+
+.submenu li {
+	background-color: #8dc6ab;
+	display: block;
+	color: #e1efe8;
+}
+
+.submenu li:hover {
+	display: block;
+	opacity: 1;
+	visibility: visible;
+	background-color: rgba(194, 239, 226, 0.8);
+	color: #f4fcf9;
+}
+
+.flex-containerb {
+		display: flex;
+		padding-top: 50px;
+		flex-wrap: wrap;
+		max-width: 725px;
+		padding: 0px 20px;
+		border-radius: 8px;
+		text-align: center;
+		overflow: hide;
+		margin: 0px auto;
+		background-color: rgba(87, 142, 72, 0.9);
+		box-shadow: 2px 2px 10px 0 rgba(0,0,0,0.5);
+}
+
+/* ------------------------------------------------------------
+	End Rollover Menu
+------------------------------------------------------------*/ 
+
+/* --------------------------e----------------------------------
+	Carousel effects
+------------------------------------------------------------*/ 
+
+.carousel-inner {
+	margin-left: 180px;
+}
+
+.carousel-item {
+	border: 2px double green;
+	border-radius: 4px;
+	width: 900px;
+	box-shadow: 2px 2px 10px 0 rgba(0,0,0,0.5);
+}
